@@ -1,1 +1,5 @@
 .idea/*
+.idea/copyright/*
+.idea/inspectionProfiles/*
+.idea/libraries/appcompat_v7_23_2_1.xml
+.idea/libraries/support_v4_23_2_1.xml
