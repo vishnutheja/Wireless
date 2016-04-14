@@ -11,10 +11,23 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TransmitterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.TransmitterActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ReceiverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.ReceiverActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
 </manifest>
